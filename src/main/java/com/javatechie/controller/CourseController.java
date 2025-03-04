@@ -69,4 +69,10 @@ public class CourseController {
     }
 
 
+    @GetMapping("/nagababu")
+    public String name() {
+        return "Hello Nagababu , AWS CICD Example working fine !";
+    }
+
+
 }
